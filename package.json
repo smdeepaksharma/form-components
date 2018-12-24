@@ -7,7 +7,10 @@
   "author": "Deepak Sharma S M <smdeepaksharma@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "react": "^16.7.0"
+    "@material-ui/core": "^3.7.1",
+    "jquery": "^3.3.1",
+    "react": "^16.7.0",
+    "redux-form": "^8.1.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
