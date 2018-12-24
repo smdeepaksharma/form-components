@@ -1,0 +1,22 @@
+{
+  "name": "form-components",
+  "version": "1.0.0",
+  "description": "Reusable form components",
+  "main": "build/index.js",
+  "repository": "https://github.com/smdeepaksharma/form-components.git",
+  "author": "Deepak Sharma S M <smdeepaksharma@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.7.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "scripts": {
+    "build": "babel src -d build",
+    "prepare": "yarn run build"
+  }
+}
